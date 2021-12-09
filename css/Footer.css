@@ -1,0 +1,12 @@
+@charset "UTF-8";
+.bg  {
+	background-color: #000000;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
