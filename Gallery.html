@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simple Theme</title> 
+	<script src="/js/jquery-1.10.2.js"></script>
+<link href="css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<div id="Nav">
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+                jQuery('#Nav').load('Nav.html', null, function(responseText, textStatus, xhr) {
+                    console.error(xhr); // 
+                });
+            });
+        </script>
+    </div>
+	<div id="footer">
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+                jQuery('#footer').load('Footer.html', null, function(responseText, textStatus, xhr) {
+                    console.error(xhr); // 
+                });
+            });
+        </script>
+    </div>
+</body>
+</html>
